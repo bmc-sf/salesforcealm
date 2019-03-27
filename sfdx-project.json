@@ -11,11 +11,13 @@
             "path": "core",
             "default": false,
             "package": "core",
+            "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
         },
         {
             "path": "logic",
             "default": false,
+            "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "package": "logic",
             "dependencies": [
@@ -28,6 +30,7 @@
         {
             "path": "ui",
             "default": false,
+            "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "package": "ui",
             "dependencies": [
@@ -44,6 +47,7 @@
         {
             "path": "security",
             "default": false,
+            "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT",
             "package": "security",
             "dependencies": [
@@ -63,6 +67,13 @@
         }
     ],
     "packageAliases": {
-        
+        "core": "0Ho2E000000PAscSAG",
+        "core@0.1.0-1": "04t2E0000012icNQAQ",
+        "logic": "0Ho2E000000PAsNSAW",
+        "logic@0.1.0-2": "04t2E0000012ioqQAA",
+        "ui": "0Ho2E000000PAsSSAW",
+        "ui@0.1.0-1": "04t2E0000012it3QAA",
+        "security": "0Ho2E000000PAshSAG",
+        "security@0.1.0-1": "04t2E0000012j9eQAA"
     }
 }

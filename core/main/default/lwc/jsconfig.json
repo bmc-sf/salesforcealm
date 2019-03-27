@@ -41,6 +41,9 @@
             ],
             "c/sample-data-importer": [
                 "../../../../ui/main/default/lwc/sampleDataImporter/sampleDataImporter.js"
+            ],
+            "c/property-map": [
+                "../../../../ui/main/default/lwc/propertyMap/propertyMap.js"
             ]
         }
     },

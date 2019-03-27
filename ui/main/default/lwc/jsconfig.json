@@ -41,6 +41,9 @@
             ],
             "c/sample-data-importer": [
                 "sampleDataImporter/sampleDataImporter.js"
+            ],
+            "c/property-map": [
+                "propertyMap/propertyMap.js"
             ]
         }
     },
