@@ -1,4 +1,4 @@
-# SFDX  App - Dreamhouse
+# SFDX  App - salesforcealm # sfdx-travisci [![Build Status](https://travis-ci.org/forcedotcom/salesforcealm.svg?branch=labs)](https://travis-ci.org/forcedotcom/salesforcealm)
 
 ## Dev, Build and Test
 
