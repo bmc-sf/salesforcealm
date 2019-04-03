@@ -3,19 +3,19 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/aura-pubsub": [
+            "c/auraPubsub": [
                 "auraPubsub/auraPubsub.js"
             ],
-            "c/broker-card": [
+            "c/brokerCard": [
                 "brokerCard/brokerCard.js"
             ],
-            "c/days-on-market": [
+            "c/daysOnMarket": [
                 "daysOnMarket/daysOnMarket.js"
             ],
-            "c/inline-message": [
+            "c/inlineMessage": [
                 "inlineMessage/inlineMessage.js"
             ],
-            "c/lds-utils": [
+            "c/ldsUtils": [
                 "ldsUtils/ldsUtils.js"
             ],
             "c/pubsub": [
@@ -24,31 +24,36 @@
             "c/paginator": [
                 "../../../../ui/main/default/lwc/paginator/paginator.js"
             ],
-            "c/property-carousel": [
+            "c/propertyCarousel": [
                 "../../../../ui/main/default/lwc/propertyCarousel/propertyCarousel.js"
             ],
-            "c/property-filter": [
+            "c/propertyFilter": [
                 "../../../../ui/main/default/lwc/propertyFilter/propertyFilter.js"
             ],
-            "c/property-summary": [
+            "c/propertyMap": [
+                "../../../../ui/main/default/lwc/propertyMap/propertyMap.js"
+            ],
+            "c/propertySummary": [
                 "../../../../ui/main/default/lwc/propertySummary/propertySummary.js"
             ],
-            "c/property-tile": [
+            "c/propertyTile": [
                 "../../../../ui/main/default/lwc/propertyTile/propertyTile.js"
             ],
-            "c/property-tile-list": [
+            "c/propertyTileList": [
                 "../../../../ui/main/default/lwc/propertyTileList/propertyTileList.js"
             ],
-            "c/sample-data-importer": [
+            "c/sampleDataImporter": [
                 "../../../../ui/main/default/lwc/sampleDataImporter/sampleDataImporter.js"
-            ],
-            "c/property-map": [
-                "../../../../ui/main/default/lwc/propertyMap/propertyMap.js"
             ]
         }
     },
     "include": [
         "**/*",
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
-    ]
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
 }

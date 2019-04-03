@@ -3,19 +3,19 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/aura-pubsub": [
+            "c/auraPubsub": [
                 "../../../../core/main/default/lwc/auraPubsub/auraPubsub.js"
             ],
-            "c/broker-card": [
+            "c/brokerCard": [
                 "../../../../core/main/default/lwc/brokerCard/brokerCard.js"
             ],
-            "c/days-on-market": [
+            "c/daysOnMarket": [
                 "../../../../core/main/default/lwc/daysOnMarket/daysOnMarket.js"
             ],
-            "c/inline-message": [
+            "c/inlineMessage": [
                 "../../../../core/main/default/lwc/inlineMessage/inlineMessage.js"
             ],
-            "c/lds-utils": [
+            "c/ldsUtils": [
                 "../../../../core/main/default/lwc/ldsUtils/ldsUtils.js"
             ],
             "c/pubsub": [
@@ -24,31 +24,36 @@
             "c/paginator": [
                 "paginator/paginator.js"
             ],
-            "c/property-carousel": [
+            "c/propertyCarousel": [
                 "propertyCarousel/propertyCarousel.js"
             ],
-            "c/property-filter": [
+            "c/propertyFilter": [
                 "propertyFilter/propertyFilter.js"
             ],
-            "c/property-summary": [
+            "c/propertyMap": [
+                "propertyMap/propertyMap.js"
+            ],
+            "c/propertySummary": [
                 "propertySummary/propertySummary.js"
             ],
-            "c/property-tile": [
+            "c/propertyTile": [
                 "propertyTile/propertyTile.js"
             ],
-            "c/property-tile-list": [
+            "c/propertyTileList": [
                 "propertyTileList/propertyTileList.js"
             ],
-            "c/sample-data-importer": [
+            "c/sampleDataImporter": [
                 "sampleDataImporter/sampleDataImporter.js"
-            ],
-            "c/property-map": [
-                "propertyMap/propertyMap.js"
             ]
         }
     },
     "include": [
         "**/*",
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
-    ]
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
 }
