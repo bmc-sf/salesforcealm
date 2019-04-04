@@ -11,3 +11,4 @@ selenium-client-jars/
 test/artifacts
 .vscode
 testOutput/
+.travis.yml
