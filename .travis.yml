@@ -29,7 +29,7 @@ script:
 #Push all code to scratch org  
 # making a quick change 
 # one more change
-- sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a ciorg -w 10
+- sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a ciorg -w 15
 - sfdx force:org:display -u ciorg
 - sleep 300
 - sfdx force:source:push -u ciorg
