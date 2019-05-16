@@ -10,6 +10,10 @@ env:
 #    - logicId=logic@0.1.0-2
 #    - uiId=ui@0.1.0-1
 #    - securityId=security@0.1.0-1
+
+# new comment in the travis file
+# 05/16/2019:  fixed typo above
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_9b8eb45309ee_key -iv $encrypted_9b8eb45309ee_iv
   -in assets/server.key.enc -out assets/server.key -d
